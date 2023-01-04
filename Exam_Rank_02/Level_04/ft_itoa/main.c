@@ -2,13 +2,14 @@
 #include <stdlib.h>
 
 char	*ft_itoa(int nbr);
+int	ft_nbrlen(int nbr);
 
 int	main(int argc, char **argv)
 {
-	char 	*str;
-	int		len;
-	int		nbr;
-	int		i;
+	char	*str;
+	int	len;
+	int	nbr;
+	int	i;
 
 	if (argc == 2)
 	{

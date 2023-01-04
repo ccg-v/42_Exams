@@ -13,7 +13,7 @@
 #include <stdlib.h>
 #include <limits.h>
 
-static int	ft_nbrlen(int nbr)
+int	ft_nbrlen(int nbr)
 {
 	int	len;
 
