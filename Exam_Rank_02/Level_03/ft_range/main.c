@@ -28,6 +28,6 @@ int	main(int argc, char **argv)
 		printf("}\n");
 	}
 	else
-		printf("The function needs two parameters, the start and end values of the int array");
+		printf("The function needs two parameters, the start and end values of the int array\n");
 	return(0);
 }
