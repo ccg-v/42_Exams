@@ -47,12 +47,12 @@ int	main(int argc, char **argv)
 		while (num_arg < argc)
 		{
 			s = argv[num_arg];
-			ft_tolower(s);
+			ft_tolower(s);		// Lower whole string
 			while (*s)
 			{
-				if (*s && *(s + 1) && ft_islower(*s) && ft_isblank(*(s + 1)))	// Last letter of a word
+				if (*s && *(s + 1) && ft_islower(*s) && ft_isblank(*(s + 1)))	// Upper last letter of every word
 					*s = *s - 32;				
-				if (*s && !*(s + 1))	// Last letter of the string
+				if (*s && !*(s + 1))	// Upper last letter of the string (if necessary)
 					*s = *s - 32;
 				write(1, &*s, 1);
 				s++;
