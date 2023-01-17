@@ -19,7 +19,7 @@ int	ft_isblank(char c)
 	return (0);
 }
 
-static int	ft_countwords(char *s)
+int	ft_countwords(char *s)
 {
 	int	num_words;
 
