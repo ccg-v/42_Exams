@@ -83,6 +83,6 @@ char	**ft_split(char *s)
 		ptr_array[word_index][letter_index] = '\0';
 		word_index++;
 	}
-	ptr_array[word_index] = '\0';
+	ptr_array[word_index] = NULL;
 	return(ptr_array);
 }
