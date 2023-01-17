@@ -61,7 +61,7 @@ char	**ft_split(char *s)
 	word_index = 0;
 	num_words = ft_countwords(s);
 	ptr_array = (char **)malloc((num_words + 1) * sizeof(char *));
-	if (!num_words)
+	if (!ptr_array)
 		return (NULL);
 	while (word_index < num_words)
 	{
