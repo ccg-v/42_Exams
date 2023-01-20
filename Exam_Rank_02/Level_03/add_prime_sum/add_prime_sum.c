@@ -55,7 +55,7 @@ int	main(int argc, char **argv)
 	int	i;
 	int	sum;
 	
-	if (argc == 2)
+	if (argc == 2 && ft_atoi(argv[1]) > 0)
 	{
 		nbr = ft_atoi(argv[1]);
 		i = 2;
